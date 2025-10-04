@@ -8,3 +8,4 @@ fastapi
 uvicorn
 sse_starlette
 langchain_ollama
+httpx<0.27
