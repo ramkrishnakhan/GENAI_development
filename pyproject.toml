@@ -22,6 +22,9 @@ chromadb = "*"
 faiss-cpu = "*"
 httpx = ">=0.23,<0.25"
 pydantic = "^1.0"
+arxiv = "^2.2.0"
+wikipedia = "^1.4.0"
+langchainhub = "^0.1.21"
 
 [build-system]
 requires = ["poetry-core"]
