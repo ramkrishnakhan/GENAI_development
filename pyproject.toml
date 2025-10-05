@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "genai_development"
+version = "0.1.0"
+description = "Accomodate GENAI development"
+authors = ["ramkrishnakhan"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.13"
+langchain-openai = "*"
+langchain-core = "*"
+python-dotenv = "*"
+streamlit = "*"
+langchain-community = "*"
+langserve = "*"
+fastapi = "*"
+uvicorn = "*"
+sse-starlette = "*"
+bs4 = "*"
+pypdf = "*"
+chromadb = "*"
+faiss-cpu = "*"
+httpx = ">=0.23,<0.25"
+pydantic = "^1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
